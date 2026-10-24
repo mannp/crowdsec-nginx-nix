@@ -6,13 +6,13 @@
 
 stdenv.mkDerivation (finalAttrs: {
   pname = "lua-cs-bouncer";
-  version = "1.0.17";
+  version = "1.0.19";
 
   src = fetchFromGitHub {
     owner = "crowdsecurity";
     repo = "lua-cs-bouncer";
     rev = "v${finalAttrs.version}";
-    hash = "sha256-WvlFf4JLgPbFByJ5G/NW0uhGbho0D+IIYa+nNt9dOCQ=";
+    hash = "sha256-SUIIt6cSGuGqAoMfM1DwBCeysrNgquBYecs1xtrH2og=";
   };
 
   dontBuild = true;
